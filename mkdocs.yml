@@ -1,0 +1,79 @@
+site_name: 쉽게 따라 해 보면서 배우는 파이썬
+site_description: 카페·편의점·쇼핑몰 데이터로 한 절씩 따라 하는 파이썬 데이터 연습장
+site_author: 안상선 (Ahn, Sang-Sun)
+copyright: © 2026 안상선 (Ahn, Sang-Sun). All rights reserved. 예제 속 가게와 숫자는 모두 지어낸 것입니다. Money-Robo는 저자 서비스의 마스코트이며, 극 중 대사는 비유일 뿐 투자 권유가 아닙니다.
+
+# ↓ 이 두 줄만 내 계정과 repo 이름으로 바꾼다. "Colab에서 열기" 버튼이 이 주소를 쓴다.
+site_url: https://USER.github.io/learn-python-by-doing/
+repo_url: https://github.com/USER/learn-python-by-doing
+repo_name: learn-python-by-doing
+edit_uri: ""
+not_in_nav: |
+  assets/chars/README.md
+
+theme:
+  name: material
+  language: ko
+  font:
+    text: Gothic A1
+    code: Nanum Gothic Coding
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: amber
+      toggle: {icon: material/weather-night, name: 어둡게}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: amber
+      toggle: {icon: material/weather-sunny, name: 밝게}
+  icon:
+    logo: material/notebook-edit-outline
+    repo: fontawesome/brands/github
+  features:
+    - navigation.sections
+    - navigation.footer
+    - navigation.top
+    - navigation.indexes
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search:
+      lang: [ko, en]
+      separator: '[\s\-\.]+'
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc: {permalink: true}
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight: {anchor_linenums: false}
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+
+extra_css: [stylesheets/extra.css]
+extra_javascript: [javascripts/extra.js]
+
+nav:
+  - 처음: index.md
+  - 0편 시작하기:
+      - ep0/index.md
+      - 0-1 상담소 식구를 소개합니다: ep0/01-crew.md
+      - 0-2 Colab 열기: ep0/02-colab.md
+      - 0-3 실습 파일 올리기: ep0/03-upload.md
+      - 0-4 이것만 알면 코드를 읽는다: ep0/04-read-code.md
+      - 0-5 실행 규칙 세 가지: ep0/05-rules.md
+      - 0-6 한글이 깨질 때: ep0/06-hangul.md
+  - 1편 카페 Koi의 장부를 연다: ep1/index.md
+  - 2편 편의점은 언제 바쁜가: ep2/index.md
+  - 3편 해외 손님에게 가격을 알려 주자: ep3/index.md
+  - 4편 가격을 바꾸면 이익이 움직인다: ep4/index.md
+  - 마감 내 가게 한 장: final/index.md
