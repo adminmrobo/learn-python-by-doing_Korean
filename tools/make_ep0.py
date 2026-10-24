@@ -9,7 +9,7 @@ menu = pd.DataFrame({
     "price":    [4500, 5000, 5500, 6000, 3500],
     "cost":     [1200, 1600, 1100, 2400, 1300],
 })
-out = os.path.join(ROOT, "docs", "data", "ep0-start.zip")
+out = os.path.join(ROOT, "src", "data", "ep0-start.zip")
 with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
     z.writestr("koi_menu.csv", menu.to_csv(index=False, encoding="utf-8-sig").encode("utf-8-sig") if False else "﻿" + menu.to_csv(index=False))
 print("wrote", out)
@@ -18,7 +18,7 @@ print("wrote", out)
 import warnings
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-img = os.path.join(ROOT, "docs", "ep0", "img"); os.makedirs(img, exist_ok=True)
+img = os.path.join(ROOT, "src", "ep0", "img"); os.makedirs(img, exist_ok=True)
 for name, title, xl, yl in [("hangul-broken", "메뉴별 가격", "메뉴", "가격(원)"), ("english-ok", "Price by menu", "Menu", "Price (KRW)")]:
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
