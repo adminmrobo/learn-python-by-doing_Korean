@@ -5,20 +5,19 @@
 
 ## 지금 들어 있는 그림
 
-| 파일 | 출처 | 상태 |
-|---|---|---|
-| doc_smile.png | AI_image_classification 의 박사 그림, 64×64 격자로 다시 찍은 512×512 초상 | 사용 중 |
-| asst_smile.png | AI_image_classification 의 조수 그림, 같은 64×64 격자 초상 | 사용 중 |
-| fly_point.png | AI_image_classification 의 초파리 그림, 같은 64×64 격자 초상 | 사용 중 |
-| robo_idle / thinking / wrong / confused / success.png | 명세서 외형대로 코드로 찍은 임시 픽셀 그림, 같은 64×64 격자 초상 | 임시. 정식 그림으로 바꿔 넣으면 된다 |
-| ../hero/hero.jpg | 코드로 그린 임시 대표 그림 (1200×800) | 임시. 정식 그림으로 바꿔 넣으면 된다 |
+| 파일 | 출처 |
+|---|---|
+| doc_smile.png · asst_smile.png · fly_point.png · robo_idle.png | 작가가 만든 전신 그림 4장(`tools/chars_src/`)을 같은 64×64 격자 초상으로 다시 찍은 것 |
+| ../hero/hero.jpg | 작가가 만든 대표 그림 (1536×1024) |
+
+Money-Robo 의 다른 상태(thinking · wrong · confused · success)는 아직 그림이 없어 robo_idle 로 보이고, 테두리 색으로만 상태를 알린다.
 
 ## 더 넣으면 쓰이는 그림 (명세서 §6)
 
 | 캐릭터 | 파일 이름 (투명 배경 PNG, 정사각 512×512 권장) |
 |---|---|
 | 박사 | doc_smile · doc_explain(손바닥 펴서 설명) · doc_judge(지휘봉 들어 판정) · doc_think(턱 괴기) · doc_spark(손에 보랏빛 불꽃) |
-| 세라 | asst_smile · asst_why(고개 갸웃) · asst_ledger(빈 서류철 펼침) · asst_sweat(땀방울) · asst_spark(반짝이) |
+| 조수 | asst_smile · asst_why(고개 갸웃) · asst_ledger(빈 서류철 펼침) · asst_sweat(땀방울) · asst_spark(반짝이) |
 | 초파리 | fly_point · fly_doubt(한쪽 눈 가늘게) · fly_magnify(돋보기) · fly_arms(팔짱) · fly_coffee(커피) |
 | Money-Robo | robo_idle · robo_thinking · robo_wrong · robo_confused · robo_success |
 
@@ -37,7 +36,7 @@ centered with small margin, eyes at 25-40% from the top, no text, no letters, no
 | 캐릭터 | 외형 (고정) + 이 시리즈 소품 |
 |---|---|
 | 박사 | chibi scientist with round glasses, black hair with one white streak, white lab coat over a black vest and tie, big smile, **plain navy waistcoat over the lab coat, holding a blank wooden pointer stick** |
-| 세라 | girl researcher with pink hair in two round buns and a navy streak, blue eyes, lavender hoodie under a white lab coat, jeans, **blank ID badge on a lanyard with no text, holding a plain closed ledger folder** |
+| 조수 | girl researcher with pink hair in two round buns and a navy streak, blue eyes, lavender hoodie under a white lab coat, jeans, **blank ID badge on a lanyard with no text, holding a plain closed ledger folder** |
 | 초파리 | anthropomorphic fruit fly, black body, big red compound eyes, blue helmet with gold stripe and pink-blue cables, white lab coat, transparent wings, **holding a magnifying glass and a blank clipboard** |
 | Money-Robo | round white robot, short antenna with a small yellow ball, black face screen with yellow eyes, small floating body with an oval shadow, **chest light that glows blue, yellow, red or green** |
 
@@ -49,7 +48,7 @@ same size, plain white background, at least 60px gap between figures:
 (1) ... (2) ... (3) ... (4) ... (5) ...   3000 x 800 px.
 ```
 - 박사: (1) big smile (2) open palm explaining (3) raising the pointer to give a verdict (4) hand on chin thinking (5) purple sparks from the hands, excited
-- 세라: (1) gentle smile (2) head tilted, puzzled (3) opening the blank ledger folder, reporting (4) sweat drop, tired (5) sparkles, delighted
+- 조수: (1) gentle smile (2) head tilted, puzzled (3) opening the blank ledger folder, reporting (4) sweat drop, tired (5) sparkles, delighted
 - 초파리: (1) pointing forward (2) one eye narrowed, doubtful (3) looking through the magnifying glass (4) arms crossed (5) holding a coffee cup, relaxed
 - Money-Robo: (1) idle round yellow eyes, blue chest light (2) loading dots on the screen, yellow chest light (3) red X on the screen, red chest light (4) yellow scribble swirl and sweat drop, blinking yellow chest light (5) green check mark, sparkles, arms raised, green chest light
 
