@@ -1750,7 +1750,7 @@
 </tr>
 </tbody>
 </table>
-<p>Money-Robo 의 다른 상태(thinking · wrong · confused · success)는 아직 그림이 없어 robo_idle 로 보이고, 테두리 색으로만 상태를 알린다.</p>
+<p>주판봇의 다섯 상태(idle · thinking · wrong · confused · success)는 fruitfly-lab-expressions 의 주판봇 표정 그림(E13 · E09 · E24 · E15 · E10, 원본은 <code>tools/chars_src/jupanbot/</code>)을 같은 64×64 격자로 찍은 것이고, 테두리 색으로도 상태를 알린다.</p>
 <h2 id="6">더 넣으면 쓰이는 그림 (명세서 §6)<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -1773,7 +1773,7 @@
 <td>fly_point · fly_doubt(한쪽 눈 가늘게) · fly_magnify(돋보기) · fly_arms(팔짱) · fly_coffee(커피)</td>
 </tr>
 <tr>
-<td>Money-Robo</td>
+<td>주판봇</td>
 <td>robo_idle · robo_thinking · robo_wrong · robo_confused · robo_success</td>
 </tr>
 </tbody>
@@ -1807,8 +1807,8 @@ centered with small margin, eyes at 25-40% from the top, no text, no letters, no
 <td>anthropomorphic fruit fly, black body, big red compound eyes, blue helmet with gold stripe and pink-blue cables, white lab coat, transparent wings, <strong>holding a magnifying glass and a blank clipboard</strong></td>
 </tr>
 <tr>
-<td>Money-Robo</td>
-<td>round white robot, short antenna with a small yellow ball, black face screen with yellow eyes, small floating body with an oval shadow, <strong>chest light that glows blue, yellow, red or green</strong></td>
+<td>주판봇</td>
+<td>JUPANBOT (AbaBot), a cute retro computer robot: boxy beige CRT-monitor body with rounded corners and thick dark brown outlines, a large dark green screen on the front where the face is drawn only with simple mint-green pixel blocks, a short thin antenna on a small square base topped with one tiny red-brown abacus bead, gray segmented arms with rounded gray mitten hands, two small dark gray tank treads instead of legs, holding a small traditional wooden abacus with red-brown beads, <strong>its screen face shows the state; the avatar frame glows blue, yellow, red or green</strong></td>
 </tr>
 </tbody>
 </table>
@@ -1821,16 +1821,16 @@ same size, plain white background, at least 60px gap between figures:
 - 박사: (1) big smile (2) open palm explaining (3) raising the pointer to give a verdict (4) hand on chin thinking (5) purple sparks from the hands, excited
 - 조수: (1) gentle smile (2) head tilted, puzzled (3) opening the blank ledger folder, reporting (4) sweat drop, tired (5) sparkles, delighted
 - 초파리: (1) pointing forward (2) one eye narrowed, doubtful (3) looking through the magnifying glass (4) arms crossed (5) holding a coffee cup, relaxed
-- Money-Robo: (1) idle round yellow eyes, blue chest light (2) loading dots on the screen, yellow chest light (3) red X on the screen, red chest light (4) yellow scribble swirl and sweat drop, blinking yellow chest light (5) green check mark, sparkles, arms raised, green chest light</p>
+- 주판봇: (1) neutral square mint pixel eyes and a small smile (2) thinking, small mint pixel eyes with gear icons beside the head (3) shocked, the screen turns red alarm color with a cracked pattern (4) flustered, wavy pixel mouth and sweat drops (5) confirming, content pixel face with a green check mark beside the head</p>
 <p>대표 그림 (hero.jpg, 1200×800)
 - <strong>쉽게 따라 해 보면서 배우는 파이썬</strong>:
-  <code>16-bit pixel art scene, 1200x800, cozy second-floor ledger office at 7pm, big window showing a neighborhood street with a cafe, a convenience store and a clothing shop glowing (icons only, no text), wooden desk piled with colorful ledgers and an open laptop, the scientist laughing, the pink-haired assistant opening a box of ledgers, the fruit fly researcher pointing at a ledger with a magnifying glass, the round white robot floating with a blue chest light, warm amber lamps, deep navy shadows, no text, no numbers, no logos</code>
+  <code>16-bit pixel art scene, 1200x800, cozy second-floor ledger office at 7pm, big window showing a neighborhood street with a cafe, a convenience store and a clothing shop glowing (icons only, no text), wooden desk piled with colorful ledgers and an open laptop, the scientist laughing, the pink-haired assistant opening a box of ledgers, the fruit fly researcher pointing at a ledger with a magnifying glass, the boxy beige CRT-monitor robot JUPANBOT on its tank treads holding a small wooden abacus, warm amber lamps, deep navy shadows, no text, no numbers, no logos</code>
 - <strong>보면서 배우는 pandas</strong>:
-  <code>16-bit pixel art scene, 1200x800, same ledger office at night, a large green chalkboard showing one colorful table splitting into three small tables and merging back into one (blocks and arrows only, no text, no numbers), the scientist pointing at the board with a pointer stick, the assistant watching wide-eyed, the fruit fly researcher checking a table with a magnifying glass, the round white robot with loading dots on its face screen, warm amber lamps, deep navy shadows, no text, no numbers, no logos</code></p>
+  <code>16-bit pixel art scene, 1200x800, same ledger office at night, a large green chalkboard showing one colorful table splitting into three small tables and merging back into one (blocks and arrows only, no text, no numbers), the scientist pointing at the board with a pointer stick, the assistant watching wide-eyed, the fruit fly researcher checking a table with a magnifying glass, the boxy beige CRT-monitor robot JUPANBOT with a thinking pixel face on its dark green screen, warm amber lamps, deep navy shadows, no text, no numbers, no logos</code></p>
 <p>네거티브
 <div class="highlight"><pre><span></span><code>text, letters, numbers, words, signage, watermark, logo, realistic photo, 3D render, blurry,
 extra fingers, distorted face, different character design, weapons, cigarettes, alcohol, blood,
-real bank logos, real store brand logos, banknotes, ticker symbols, stock charts with numbers
+real bank logos, real store brand logos, banknotes, ticker symbols, stock charts with numbers, no white round robot head, no yellow or golden eyes, no floating robot, no gold coins
 </code></pre></div></p>
 <h2 id="_3">해상도 · 구도 맞추기 (중요)<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <p>원본 그림마다 구도(전신 · 상반신)와 해상도가 달라서, 모든 초상을 <strong>같은 픽셀 격자</strong>로 다시 찍었다.
@@ -1881,7 +1881,7 @@ real bank logos, real store brand logos, banknotes, ticker symbols, stock charts
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      © 2026 안상선 (Ahn, Sang-Sun). All rights reserved. 예제 속 가게와 숫자는 모두 지어낸 것입니다. Money-Robo는 저자 서비스의 마스코트이며, 극 중 대사는 비유일 뿐 투자 권유가 아닙니다.
+      © 2026 안상선 (Ahn, Sang-Sun). All rights reserved. 예제 속 가게와 숫자는 모두 지어낸 것입니다. 주판봇은 연구실 캐릭터이며, 극 중 대사는 비유일 뿐 투자 권유가 아닙니다.
     </div>
   
   
