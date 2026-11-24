@@ -1,0 +1,32 @@
+{
+ "title": "3-7 환율과 해외 주문 수 · CH-12 - 쉽게 따라 해 보면서 배우는 파이썬",
+ "number": "39",
+ "series": "쉽게 따라 해 보면서 배우는 파이썬 - 쉽게 따라 해 보면서 배우는 파이썬",
+ "date": "2026-11-24",
+ "version": "1.1",
+ "creator": [
+  {
+   "name": "안상선",
+   "role": "author"
+  }
+ ],
+ "contributor": [
+  {
+   "name": "AI 보조 제작",
+   "role": "assistant"
+  }
+ ],
+ "about": [
+  "lab:concept/mean",
+  "lab:concept/weighted-mean",
+  "lab:concept/contour-line",
+  "lab:concept/correlation"
+ ],
+ "basedOn": [],
+ "educationalLevel": "입문~중급",
+ "license": "",
+ "url": "https://adminmrobo.github.io/learn-python-by-doing_Korean/docs/ep3/07-rate-vs-orders/index.html",
+ "registry": "KG_00_registry 0.3",
+ "seeAlso": "",
+ "suggestedCitation": "안상선 (2026). 3-7 환율과 해외 주문 수 · CH-12 - 쉽게 따라 해 보면서 배우는 파이썬. 쉽게 따라 해 보면서 배우는 파이썬 - 쉽게 따라 해 보면서 배우는 파이썬, v1.1."
+}

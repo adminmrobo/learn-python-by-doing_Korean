@@ -1,0 +1,32 @@
+{
+ "title": "2-3 평균이냐 합계냐 · CH-03 - 쉽게 따라 해 보면서 배우는 파이썬",
+ "number": "25",
+ "series": "쉽게 따라 해 보면서 배우는 파이썬 - 쉽게 따라 해 보면서 배우는 파이썬",
+ "date": "2026-11-24",
+ "version": "1.1",
+ "creator": [
+  {
+   "name": "안상선",
+   "role": "author"
+  }
+ ],
+ "contributor": [
+  {
+   "name": "AI 보조 제작",
+   "role": "assistant"
+  }
+ ],
+ "about": [
+  "lab:method/s09-01",
+  "lab:concept/mean",
+  "lab:method/s09-33",
+  "lab:concept/contour-line"
+ ],
+ "basedOn": [],
+ "educationalLevel": "입문~중급",
+ "license": "",
+ "url": "https://adminmrobo.github.io/learn-python-by-doing_Korean/docs/ep2/03-mean-or-sum/index.html",
+ "registry": "KG_00_registry 0.3",
+ "seeAlso": "",
+ "suggestedCitation": "안상선 (2026). 2-3 평균이냐 합계냐 · CH-03 - 쉽게 따라 해 보면서 배우는 파이썬. 쉽게 따라 해 보면서 배우는 파이썬 - 쉽게 따라 해 보면서 배우는 파이썬, v1.1."
+}

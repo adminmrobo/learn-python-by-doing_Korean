@@ -1,0 +1,32 @@
+{
+ "title": "3-6 단순 평균 환율 vs 주문 가중 평균 환율 · CH-11 - 쉽게 따라 해 보면서 배우는 파이썬",
+ "number": "38",
+ "series": "쉽게 따라 해 보면서 배우는 파이썬 - 쉽게 따라 해 보면서 배우는 파이썬",
+ "date": "2026-11-24",
+ "version": "1.1",
+ "creator": [
+  {
+   "name": "안상선",
+   "role": "author"
+  }
+ ],
+ "contributor": [
+  {
+   "name": "AI 보조 제작",
+   "role": "assistant"
+  }
+ ],
+ "about": [
+  "lab:concept/weighted-mean",
+  "lab:method/s09-01",
+  "lab:concept/mean",
+  "lab:concept/contour-line"
+ ],
+ "basedOn": [],
+ "educationalLevel": "입문~중급",
+ "license": "",
+ "url": "https://adminmrobo.github.io/learn-python-by-doing_Korean/docs/ep3/06-weighted-rate/index.html",
+ "registry": "KG_00_registry 0.3",
+ "seeAlso": "",
+ "suggestedCitation": "안상선 (2026). 3-6 단순 평균 환율 vs 주문 가중 평균 환율 · CH-11 - 쉽게 따라 해 보면서 배우는 파이썬. 쉽게 따라 해 보면서 배우는 파이썬 - 쉽게 따라 해 보면서 배우는 파이썬, v1.1."
+}

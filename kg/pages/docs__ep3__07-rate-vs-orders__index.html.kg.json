@@ -1,0 +1,185 @@
+{
+ "version": "1.0",
+ "page": "docs__ep3__07-rate-vs-orders__index",
+ "nodes": [
+  {
+   "id": "lab:concept/mean",
+   "type": "Concept",
+   "label": {
+    "ko": "평균",
+    "en": "mean"
+   },
+   "page": "docs__ep3__07-rate-vs-orders__index",
+   "anchor": "#3-7-ch-12",
+   "level": 2,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "mentioned",
+   "domain": [
+    "data",
+    "stats",
+    "fin"
+   ],
+   "match": [],
+   "auto": "autokg-2026-11-24",
+   "definition": {
+    "ko": "모든 값을 더해 개수로 나눈 값. 데이터의 가운데를 나타냄."
+   }
+  },
+  {
+   "id": "lab:concept/weighted-mean",
+   "type": "Concept",
+   "label": {
+    "ko": "가중평균",
+    "en": "weighted mean"
+   },
+   "page": "docs__ep3__07-rate-vs-orders__index",
+   "anchor": "#3-7-ch-12",
+   "level": 2,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "mentioned",
+   "domain": [
+    "data",
+    "fin",
+    "stats"
+   ],
+   "match": [],
+   "auto": "autokg-2026-11-24",
+   "definition": {
+    "ko": "항목마다 중요도(가중치)를 곱해 더한 뒤 가중치 합으로 나눈 평균."
+   }
+  },
+  {
+   "id": "lab:concept/contour-line",
+   "type": "Concept",
+   "label": {
+    "ko": "등고선",
+    "en": "Contour line"
+   },
+   "page": "docs__ep3__07-rate-vs-orders__index",
+   "anchor": "#kg",
+   "level": 2,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "mentioned",
+   "domain": [
+    "data",
+    "math"
+   ],
+   "match": [],
+   "auto": "autokg-2026-11-24",
+   "definition": {
+    "ko": "높이(목표 값)가 같은 점을 이은 선."
+   }
+  },
+  {
+   "id": "lab:concept/correlation",
+   "type": "Concept",
+   "label": {
+    "ko": "상관계수",
+    "en": "correlation coefficient"
+   },
+   "page": "docs__ep3__07-rate-vs-orders__index",
+   "anchor": "#3-7-ch-12",
+   "level": 2,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "mentioned",
+   "domain": [
+    "data",
+    "stats",
+    "biz"
+   ],
+   "match": [],
+   "auto": "autokg-2026-11-24",
+   "definition": {
+    "ko": "두 값이 함께 움직이는 정도. −1(반대로)~+1(똑같이)."
+   }
+  },
+  {
+   "id": "lab:topic/central-tendency",
+   "type": "Topic",
+   "label": {
+    "ko": "대표값",
+    "en": "Measures of central tendency"
+   },
+   "page": "docs__ep3__07-rate-vs-orders__index",
+   "anchor": "#kg",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "domain": [
+    "stats"
+   ],
+   "match": []
+  },
+  {
+   "id": "lab:topic/gradient",
+   "type": "Topic",
+   "label": {
+    "ko": "그래디언트(∇)",
+    "en": "Gradient (nabla)"
+   },
+   "page": "docs__ep3__07-rate-vs-orders__index",
+   "anchor": "#kg",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "domain": [
+    "math"
+   ],
+   "match": []
+  },
+  {
+   "id": "lab:topic/correlation",
+   "type": "Topic",
+   "label": {
+    "ko": "상관",
+    "en": "Correlation"
+   },
+   "page": "docs__ep3__07-rate-vs-orders__index",
+   "anchor": "#kg",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "domain": [
+    "stats"
+   ],
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/mean",
+   "p": "lab:broader",
+   "o": "lab:topic/central-tendency",
+   "anchor": "#3-7-ch-12",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/weighted-mean",
+   "p": "lab:broader",
+   "o": "lab:topic/central-tendency",
+   "anchor": "#3-7-ch-12",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/contour-line",
+   "p": "lab:broader",
+   "o": "lab:topic/gradient",
+   "anchor": "#kg",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/correlation",
+   "p": "lab:broader",
+   "o": "lab:topic/correlation",
+   "anchor": "#3-7-ch-12",
+   "confidence": "medium"
+  }
+ ]
+}

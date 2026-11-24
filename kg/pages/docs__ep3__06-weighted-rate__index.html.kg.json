@@ -1,0 +1,183 @@
+{
+ "version": "1.0",
+ "page": "docs__ep3__06-weighted-rate__index",
+ "nodes": [
+  {
+   "id": "lab:concept/weighted-mean",
+   "type": "Concept",
+   "label": {
+    "ko": "가중평균",
+    "en": "weighted mean"
+   },
+   "page": "docs__ep3__06-weighted-rate__index",
+   "anchor": "#3-6-vs-ch-11",
+   "level": 2,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "domain": [
+    "data",
+    "fin",
+    "stats"
+   ],
+   "match": [],
+   "auto": "autokg-2026-11-24",
+   "definition": {
+    "ko": "항목마다 중요도(가중치)를 곱해 더한 뒤 가중치 합으로 나눈 평균."
+   }
+  },
+  {
+   "id": "lab:method/s09-01",
+   "type": "Method",
+   "label": {
+    "ko": "SUM",
+    "en": "SUM"
+   },
+   "page": "docs__ep3__06-weighted-rate__index",
+   "anchor": "#3-6-vs-ch-11",
+   "level": 2,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "domain": [
+    "data"
+   ],
+   "match": [],
+   "auto": "autokg-2026-11-24",
+   "definition": {
+    "ko": "범위의 숫자를 더하거나 평균을 구해요."
+   }
+  },
+  {
+   "id": "lab:concept/mean",
+   "type": "Concept",
+   "label": {
+    "ko": "평균",
+    "en": "mean"
+   },
+   "page": "docs__ep3__06-weighted-rate__index",
+   "anchor": "#3-6-vs-ch-11",
+   "level": 2,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "mentioned",
+   "domain": [
+    "data",
+    "stats",
+    "fin"
+   ],
+   "match": [],
+   "auto": "autokg-2026-11-24",
+   "definition": {
+    "ko": "모든 값을 더해 개수로 나눈 값. 데이터의 가운데를 나타냄."
+   }
+  },
+  {
+   "id": "lab:concept/contour-line",
+   "type": "Concept",
+   "label": {
+    "ko": "등고선",
+    "en": "Contour line"
+   },
+   "page": "docs__ep3__06-weighted-rate__index",
+   "anchor": "#kg",
+   "level": 2,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "mentioned",
+   "domain": [
+    "data",
+    "math"
+   ],
+   "match": [],
+   "auto": "autokg-2026-11-24",
+   "definition": {
+    "ko": "높이(목표 값)가 같은 점을 이은 선."
+   }
+  },
+  {
+   "id": "lab:topic/central-tendency",
+   "type": "Topic",
+   "label": {
+    "ko": "대표값",
+    "en": "Measures of central tendency"
+   },
+   "page": "docs__ep3__06-weighted-rate__index",
+   "anchor": "#kg",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "domain": [
+    "stats"
+   ],
+   "match": []
+  },
+  {
+   "id": "lab:topic/spreadsheets-automation",
+   "type": "Topic",
+   "label": {
+    "ko": "스프레드시트 자동화",
+    "en": "Spreadsheet automation"
+   },
+   "page": "docs__ep3__06-weighted-rate__index",
+   "anchor": "#kg",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "domain": [
+    "data"
+   ],
+   "match": []
+  },
+  {
+   "id": "lab:topic/gradient",
+   "type": "Topic",
+   "label": {
+    "ko": "그래디언트(∇)",
+    "en": "Gradient (nabla)"
+   },
+   "page": "docs__ep3__06-weighted-rate__index",
+   "anchor": "#kg",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "domain": [
+    "math"
+   ],
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/weighted-mean",
+   "p": "lab:broader",
+   "o": "lab:topic/central-tendency",
+   "anchor": "#3-6-vs-ch-11",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:method/s09-01",
+   "p": "lab:broader",
+   "o": "lab:topic/spreadsheets-automation",
+   "anchor": "#3-6-vs-ch-11",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/mean",
+   "p": "lab:broader",
+   "o": "lab:topic/central-tendency",
+   "anchor": "#3-6-vs-ch-11",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/contour-line",
+   "p": "lab:broader",
+   "o": "lab:topic/gradient",
+   "anchor": "#kg",
+   "confidence": "medium"
+  }
+ ]
+}
